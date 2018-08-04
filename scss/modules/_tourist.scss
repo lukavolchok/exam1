@@ -1,0 +1,48 @@
+.tourist {
+    height: 750px;
+    background: url('../images/bg5.jpg') no-repeat;
+    margin: 0 auto;
+    color: #fff;
+    cursor: default;
+
+    .title {
+        font-family: $aleo;
+        font-size: 36px;
+        padding-top: 110px;
+    }
+
+    .content {
+        height: 285px;
+        margin-top: 95px;
+
+        &__img {
+
+        }
+
+        .article {
+            background: #333;
+            padding: 0 55px;
+            margin-left: -15px;
+            text-align: justify;
+
+            &__title {
+                font-family: $font;
+                font-size: 20px;
+                padding-top: 40px;
+                text-transform: uppercase;
+            }
+
+            &__p {
+                font-family: $font;
+                font-size: 16px;
+                margin-top: 45px;
+
+                .article__icon {
+                    color: $blue;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+}

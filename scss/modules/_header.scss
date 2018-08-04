@@ -1,0 +1,86 @@
+.header {
+    cursor: default;
+    color: #fff;
+    background: url('../images/bg1.jpg');
+    height: 100%;
+    text-align: center;
+
+    &-title {
+
+        .title {
+            padding-top: 255px;
+            font-size: 48px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: $font;
+        }
+
+        &__description {
+            font-family: $font;
+            font-size: 22px;
+            letter-spacing: 3.1px;
+            font-weight: normal;
+        }
+    }
+
+    .search {
+        margin-top: 45px;
+        position: relative;
+
+        &__input {
+            width: 655px;
+            height: 60px;
+            cursor: pointer;
+
+            @include placeholder {
+                font-family: $font;
+                letter-spacing: 2px;
+                padding-left: 120px;
+                font-size: 14px;
+                color: #999;
+            }
+        }
+        
+        &__button {
+            position: absolute;
+            text-transform: uppercase;
+            font-family: $aleo;
+            font-size: 14px;
+            color: #fff;
+            background: $blue;
+            height: 56px;
+            width: 150px;
+            margin-left: -152px;
+            margin-top: 2px;
+            cursor: pointer;
+            padding-right: 20px;
+            padding-top: 3px;
+            
+            &:hover {
+                background: $bhover;
+            }
+        }
+
+        &__icon {
+            position: absolute;
+            font-size: 35px;
+            margin-top: 13px;
+            margin-left: -50px;
+        }
+
+    }
+    
+    .scroll {
+        margin-top: 110px;
+        font-family: $font;
+        font-size:  14px;
+        text-align: center;
+        letter-spacing: 2px;
+        padding-bottom: 100px;
+
+        &__icon {
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+}

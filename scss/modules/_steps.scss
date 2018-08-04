@@ -1,0 +1,47 @@
+.steps {
+    height: 335px;
+    background: #333 url('../images/steps.png') no-repeat;
+    background-position: 260px 35px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 130px 50px 0 50px;
+    cursor: default;
+
+    &__icon {
+
+        &--violet {
+            font-size: 60px;
+            color: #5474fd;
+
+            &:hover {
+                color: darken($color: #5474fd, $amount: 30);
+            }
+        }
+
+        &--red {
+            font-size: 60px;
+            color: #ff6363;
+            background: #333;
+
+            &:hover {
+                color: darken($color: #ff6363, $amount: 30);
+            }
+        }
+
+        &--blue {
+            font-size: 60px;
+            color: #00a2ff;
+
+            &:hover {
+                color: darken($color: #00a2ff, $amount: 30);
+            }
+        }
+    }
+
+    &__p {
+        font-family: $aleo;
+        color: #fff;
+        font-size: 36px;
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,44 @@
+.footer {
+    height: 265px;
+    background: #232323;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: -20px;
+    text-align: center;
+    cursor: default;
+
+    .content {
+
+        .title {
+            font-family: $font;
+            font-size: 26px;
+            padding-top: 115px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    
+        .description {
+            font-family: $font;
+            font-size: 17px;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+    
+        .contacts {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                color: $blue;
+            }
+        }
+    }
+
+    
+}

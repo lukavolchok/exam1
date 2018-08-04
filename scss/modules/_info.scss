@@ -1,0 +1,89 @@
+.info {
+    color: #fff;
+    background: #373d3f url('../images/bg2.jpg') no-repeat;
+    background-position: 0 115px;
+    height: 800px;
+    cursor: default;
+
+    &-nav {
+        height: 80px;
+        background: $blue;
+        margin: 0 auto;
+
+        .title {
+            font-family: $font;
+            font-weight: bold;
+            font-size: 24px;
+            text-transform: uppercase;
+            padding-top: 30px;
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 30px;
+
+            &__item {
+                text-decoration: none;
+                color: #fff;
+                font-family: $aleo;
+                text-transform: uppercase;
+                border-top: 3px solid $blue;
+
+                &:hover {
+                    padding-top: 10px;
+                    border-top: 3px solid $bhover;
+                }
+            }
+        }
+    }
+    .article {
+        padding-left: 100px;
+        cursor: default;
+
+        &__title {
+            font-family: $aleo;
+            font-size: 36px;
+            padding-top: 195px;
+        }
+
+        &__p {
+            font-family: $font;
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 30px;
+            color: $grey;
+
+            &:first-of-type {
+                margin-top: 45px;
+            }
+        }
+
+        &__button {
+            height: 60px;
+            width: 224px;
+            background: $blue url('../images/infobtn.png') no-repeat;
+            background-position: -200px 0;
+            text-transform: uppercase;
+            font-family: $aleo;
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: .75px;
+            margin-top: 45px;
+            cursor: pointer;
+
+            &:hover {
+                background-position: 0 0;
+            }
+        }
+
+    }
+
+    .images {
+        padding-top: 120px;
+        
+        &__item:last-of-type {
+            margin-top: 5px;
+        }
+    }
+}

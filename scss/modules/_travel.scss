@@ -1,0 +1,50 @@
+.travel {
+    height: 700px;
+    margin: 0 auto;
+    color: #fff;
+    cursor: default;
+
+    .article {
+        margin-top: 230px;
+        background: rgba(57, 57, 57, .9);
+        padding: 50px 30px;
+
+        &__country {
+            font-family: $font;
+            font-size: 20px;
+        }
+
+        &__title {
+            text-transform: uppercase;
+            font-family: $font;
+            font-size: 20px;
+            margin-top: 25px;
+        }
+
+        &__p {
+            font-family: $font;
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 25px;
+        }
+
+        &__button {
+            height: 60px;
+            width: 224px;
+            background: $blue url('../images/infobtn.png') no-repeat;
+            background-position: -200px 0;
+            text-transform: uppercase;
+            font-family: $aleo;
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: .75px;
+            margin-top: 45px;
+            cursor: pointer;
+
+            &:hover {
+                background-position: 0 0;
+            }
+        }
+
+    }
+}
